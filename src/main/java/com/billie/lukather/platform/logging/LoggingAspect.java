@@ -54,7 +54,7 @@ public class LoggingAspect {
     }
 
 
-    @Around("(resourceClasses() || serviceClasses())")
+    @Around("(resourceClasses())")
     public Object logAroundPackages(ProceedingJoinPoint joinPoint) throws Throwable {
         long start = System.currentTimeMillis();
         Class<? extends Object> clazz = joinPoint.getTarget().getClass();
@@ -71,7 +71,7 @@ public class LoggingAspect {
         return result;
     }
 
-    @AfterThrowing(value = "(resourceClasses() || serviceClasses())",
+    @AfterThrowing(value = "(resourceClasses())",
             throwing = "throwable", argNames = "joinPoint, throwable")
     public void afterThrowing(JoinPoint joinPoint, Throwable throwable) {
 

@@ -98,7 +98,7 @@ public class LukatherLoggerImpl implements LukatherLogger {
     private void warn(Class<?> clazz, String message, Throwable throwable) {
         logger(clazz).warn(message, throwable);
     }
-    
+
     private Logger logger(Class<?> clazz) {
         return LoggerFactory.getLogger(clazz);
     }
