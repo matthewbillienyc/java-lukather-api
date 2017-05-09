@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-lukather-api.iml" filepath="$PROJECT_DIR$/.idea/modules/java-lukather-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-lukather-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-lukather-api_main.iml" group="java-lukather-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-lukather-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-lukather-api_test.iml" group="java-lukather-api" />
+    </modules>
+  </component>
+</project>
