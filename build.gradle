@@ -24,6 +24,17 @@ jar {
 	version = version
 }
 
+springBoot {
+    mainClass = 'com.billie.lukather.Application'
+    layout = 'ZIP'
+}
+
+processResources {
+    filesMatching('application.properties') {
+        expand(project.properties)
+    }
+}
+
 repositories {
     maven {
         url 'http://packages.confluent.io/maven/'
