@@ -138,7 +138,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/billie/lukather/config/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-72">
@@ -149,6 +149,74 @@
                 <element signature="e#914#915#0" expanded="true" />
                 <element signature="e#982#983#0" expanded="true" />
                 <element signature="e#1044#1045#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Loggable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/billie/lukather/platform/logging/Loggable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggingAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/billie/lukather/platform/logging/LoggingAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LukatherLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/billie/lukather/platform/logging/LukatherLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LukatherLoggerImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/billie/lukather/platform/logging/LukatherLoggerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2034#2035#0" expanded="true" />
+                <element signature="e#2078#2079#0" expanded="true" />
+                <element signature="e#2156#2157#0" expanded="true" />
+                <element signature="e#2211#2212#0" expanded="true" />
+                <element signature="e#2269#2270#0" expanded="true" />
+                <element signature="e#2313#2314#0" expanded="true" />
+                <element signature="e#2391#2392#0" expanded="true" />
+                <element signature="e#2446#2447#0" expanded="true" />
+                <element signature="e#2503#2504#0" expanded="true" />
+                <element signature="e#2546#2547#0" expanded="true" />
+                <element signature="e#2623#2624#0" expanded="true" />
+                <element signature="e#2678#2679#0" expanded="true" />
+                <element signature="e#2736#2737#0" expanded="true" />
+                <element signature="e#2780#2781#0" expanded="true" />
+                <element signature="e#2858#2859#0" expanded="true" />
+                <element signature="e#2913#2914#0" expanded="true" />
+                <element signature="e#2970#2971#0" expanded="true" />
+                <element signature="e#3014#3015#0" expanded="true" />
+                <element signature="e#3091#3092#0" expanded="true" />
+                <element signature="e#3145#3146#0" expanded="true" />
+                <element signature="e#3194#3195#0" expanded="true" />
+                <element signature="e#3247#3248#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -482,6 +550,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/billie/lukather/config/AppProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/billie/lukather/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/billie/lukather/platform/logging/Loggable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/billie/lukather/platform/logging/LoggingAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/billie/lukather/platform/logging/LukatherLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/billie/lukather/platform/logging/LukatherLoggerImpl.java" />
       </list>
     </option>
   </component>
@@ -652,6 +724,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-lukather-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-lukather-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lukather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logging" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1076,6 +1178,66 @@
             <element signature="e#914#915#0" expanded="true" />
             <element signature="e#982#983#0" expanded="true" />
             <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/billie/lukather/platform/logging/Loggable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/billie/lukather/platform/logging/LoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/billie/lukather/platform/logging/LukatherLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/billie/lukather/platform/logging/LukatherLoggerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2078#2079#0" expanded="true" />
+            <element signature="e#2156#2157#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+            <element signature="e#2391#2392#0" expanded="true" />
+            <element signature="e#2446#2447#0" expanded="true" />
+            <element signature="e#2503#2504#0" expanded="true" />
+            <element signature="e#2546#2547#0" expanded="true" />
+            <element signature="e#2623#2624#0" expanded="true" />
+            <element signature="e#2678#2679#0" expanded="true" />
+            <element signature="e#2736#2737#0" expanded="true" />
+            <element signature="e#2780#2781#0" expanded="true" />
+            <element signature="e#2858#2859#0" expanded="true" />
+            <element signature="e#2913#2914#0" expanded="true" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#3014#3015#0" expanded="true" />
+            <element signature="e#3091#3092#0" expanded="true" />
+            <element signature="e#3145#3146#0" expanded="true" />
+            <element signature="e#3194#3195#0" expanded="true" />
+            <element signature="e#3247#3248#0" expanded="true" />
           </folding>
         </state>
       </provider>
