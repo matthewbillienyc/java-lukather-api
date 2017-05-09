@@ -47,6 +47,7 @@ ext {
     jaxrsApiVersion = '2.0.1'
     cxfVersion = '3.1.9'
     swaggerVersion = '1.5.10'
+    postgresVersion = '9.4.1211'
 }
 
 dependencies {
@@ -63,4 +64,5 @@ dependencies {
     compile("org.apache.cxf:cxf-rt-rs-service-description-swagger:${cxfVersion}")
     compile("org.apache.cxf:cxf-rt-rs-security-cors:${cxfVersion}")
     compile("io.swagger:swagger-jaxrs:${swaggerVersion}")
+    compile("org.postgresql:postgresql:${postgresVersion}")
 }
